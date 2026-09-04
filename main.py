@@ -11,7 +11,7 @@ def root():
 @app.get("/healthy")
 def healty():
     return {
-        "healthy"
+        " app is healthy"
     }
 
 @app.get("/info")
